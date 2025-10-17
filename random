@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const urls = [
+      "https://www.surveycake.com/s/pv62R",
+      "https://www.surveycake.com/s/KGXAk",
+      "https://www.surveycake.com/s/e2Gaa",
+      "https://www.surveycake.com/s/w8wKM",
+      "https://www.surveycake.com/s/r0GNa",
+      "https://www.surveycake.com/s/x70dy",
+      "https://www.surveycake.com/s/x70WD",
+      "https://www.surveycake.com/s/7GwK3"
+    ];
+    const target = urls[Math.floor(Math.random() * urls.length)];
+    window.location.href = target;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
+www.surveycake.com
